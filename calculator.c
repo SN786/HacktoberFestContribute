@@ -5,10 +5,10 @@ int main(void)
   char operator;
     double n1,n2;
 
-    printf("Enter an operator (+, -, *,/): ");
+    printf("Enter an operator (+, -, *,/): "); //Taking operators as input
     scanf("%c", &operator);
 
-    printf("Enter two numbers: ");
+    printf("Enter two numbers: "); //Taking number as input
     scanf("%lf  %lf",&n1, &n2);
 
   switch(operator)
