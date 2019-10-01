@@ -3,7 +3,7 @@
 int main() 
 { 
   int x , y; 
-  printf("Enter the value of x and y:");
+  printf("Enter the value of x and y:"); //taking input
   scanf("%d%d",&x,&y);
 
   // Code to swap 'x' and 'y' 
