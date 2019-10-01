@@ -5,7 +5,7 @@ void fibonacci(int p,int q,int r)
   int a,b,c;
   a=0;
   b=1;
-  cout<<"number of terms of fibanocci terms are to be printed: "<<endl;
+  cout<<"number of terms of fibanocci terms are to be printed: "<<endl; //Taking input over here
   cin>>n>>endl;
   for(i=0;i<n;i++)
   {
