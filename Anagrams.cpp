@@ -9,7 +9,7 @@ int main() {
 	cin >> second;
 	sort(first.begin(), first.end());
 	sort(second.begin(), second.end());
-	if (first == second)
+	if (first == second) //Checking if condition
 		cout << "Anagrams :)" << endl;
 	else
 		cout << "Not Anagrams! :(" << endl;
