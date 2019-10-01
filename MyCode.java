@@ -30,7 +30,7 @@ class Hangman
             for(;;)
             {   
 
-                System.out.println("YOUR CORRECT GUESSES");
+                System.out.println("YOUR CORRECT GUESSES"); //Entering correctness
                 for(int x=0;x<sw.length();x++)
                 {
                     char p=guess.charAt(x);
