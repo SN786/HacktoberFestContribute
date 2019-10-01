@@ -1,9 +1,9 @@
-import java.util.Scanner;
+import java.util.Scanner;//Scanner class
 import java.util.Random;
 class Hangman
 {   
 
-    public static void main(String[] args)
+    public static void main(String[] args)//main function
     {   
         System.out.println(" @@@@@@@@@@@@@ PLAY HANGMAN @@@@@@@@@@@@@" );
         String[] s={"DELHI","KARACHI","NEWYORK","LONDON","TOKYO","SURAT","KABUL","DUBAI","JAIPUR","PUNE"};
@@ -27,7 +27,7 @@ class Hangman
 
             }
             int numLives=0;
-            for(;;)
+            for(;;)//for loop
             {   
 
                 System.out.println("YOUR CORRECT GUESSES");
