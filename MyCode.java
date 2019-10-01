@@ -3,14 +3,14 @@ import java.util.Random;
 class Hangman
 {   
 
-    public static void main(String[] args)
+    public static void main(String[] args)//Main function
     {   
         System.out.println(" @@@@@@@@@@@@@ PLAY HANGMAN @@@@@@@@@@@@@" );
         String[] s={"DELHI","KARACHI","NEWYORK","LONDON","TOKYO","SURAT","KABUL","DUBAI","JAIPUR","PUNE"};
         Random r=new Random();
         System.out.println("GUESS THE WORLD'S LARGEST CITY");
         System.out.println("Rule: You have 10 chances for correct guess");
-        for(;;)
+        for(;;)//For loop
         {
 
             int randomNumber=r.nextInt(s.length);
@@ -19,9 +19,9 @@ class Hangman
             String incorrect="";
 
             String guess="";
-            Scanner sc=new Scanner(System.in);
+            Scanner sc=new Scanner(System.in);//Scanner class
             
-            for(int x=0;x<sw.length();x++)
+            for(int x=0;x<sw.length();x++)// For looping
             {
                 guess+="_";
 
@@ -71,7 +71,7 @@ class Hangman
                         incorrect+=c;
 
                         System.out.println("MISSES = "+incorrect);
-                        numLives++;
+                        numLives++;//Counter variable
                         
                     }
                 }
