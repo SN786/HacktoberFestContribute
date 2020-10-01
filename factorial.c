@@ -1,3 +1,4 @@
+// This basic C program is about how to find the factorial of the given number.
 #include<stdio.h>
 main()
 {
