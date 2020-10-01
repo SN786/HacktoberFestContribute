@@ -1,3 +1,4 @@
+// This is a program to swap two elements without using the third variable.
 #include <iostream.h>
 using namespace std;
 
