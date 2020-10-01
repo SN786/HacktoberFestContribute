@@ -1,9 +1,10 @@
+// Convert lower case to upper case character and vice versa as entered by the user.
 #include <iostream>
 #include<conio.h>
 using namespace std ;
 int main()
 {
-char ch;
+char ch; // Declaring ch variable to store entered value from the user.
 cout<<"Enter any Alphabet:";
 cin>>ch;
 
