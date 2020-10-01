@@ -1,3 +1,4 @@
+// This program is to convert int to binary.
 #include <stdlib.h>
 #include <stdio.h>
 
